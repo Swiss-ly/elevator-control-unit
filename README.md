@@ -1,5 +1,5 @@
 # elevator-control-unit
-**TLDR - Using C and a PIC18F4520 microcontroller for a hypothetical elevator control unit.**
+**TLDR - Using C and a PIC18F4520 microcontroller for a hypothetical elevator control unit. Used MPLAB X IDE and Picsimlab to test this code.**
 
 A hypothetical company has been tasked with designing and implementing an Elevator Control Unit (ECU) for a 3-story building. The sequence of operations the ECU will perform to operate the elevator are yet to be defined by the client therefore, stage 1 will only correctly operate each component of the elevator hardware and test all interface routines. The overall functions for this ECU will include:
 
