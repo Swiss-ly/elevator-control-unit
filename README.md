@@ -21,3 +21,5 @@ A hypothetical company has been tasked with designing and implementing an Elevat
 The chosen microcontroller for this task is the PIC18F4520 due to its multiple built-in features such as analog to digital conversion (ADC), number of ports and its capture, compare, pwm module. Furthermore, it was decided that to display which floor the user was on the hd44780 16x2 LCD was to be used.
 
 The first stage of this ECU design was to interface the PIC18F with the elevator equipment. This included finding the right components for an external crystal oscillator, optical isolation and a debounce circuit. Then determining which ports would be used for each piece of elevator equipment 
+
+After that, MPLAB X IDE was used to design the software interface routines which included setting up all the ports ready to be used by the MCU and then coding it so that the elevators functions are split up into separate routines for the LCD, PWM, ADC, push buttons and etc.
